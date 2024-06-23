@@ -1,0 +1,42 @@
+/*
+	Topo.v
+	Ronzani, Maurício Darabas
+	
+	Descriçao: Arquivo Topo.v arquivo principal
+	
+	Revisão:
+	
+	*/
+	
+	module Topo(<port_name>, <port_name>, ...);
+
+	// Input Port(s)
+	input <port_name>;
+	input wire <port_name>;
+	input [<msb>:<lsb>] <port_name>;
+	input signed [<msb>:<lsb>] <port_name>;
+	...
+
+	// Output Port(s)
+	output <port_name>;
+	output [<msb>:<lsb>] <port_name>;
+	output reg [<msb>:<lsb>] <port_name>;
+	output signed [<msb>:<lsb>] <port_name>;
+	output reg signed [<msb>:<lsb>] <port_name>;
+	...
+
+	// Inout Port(s)
+	inout <port_name>;
+	inout [<msb>:<lsb>] <port_name>;
+	inout signed [<msb>:<lsb>] <port_name>;
+	...
+
+	// Parameter Declaration(s)
+	parameter <param_name> = <default_value>;
+	parameter [<msb>:<lsb>] <param_name> = <default_value>;
+	parameter signed [<msb>:<lsb>] <param_name> = <default_value>;
+	...
+
+	// Additional Module Item(s)
+
+endmodule

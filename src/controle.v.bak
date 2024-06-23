@@ -1,0 +1,64 @@
+module datapath
+(
+	CLOCK_50,
+	KEY,
+	SWITCH,
+	R1,
+	R2,
+	E1,
+	E2,
+	E3,
+	E4,
+	SEL,
+	hex0,
+	hex1,
+	hex2,
+	hex3,
+	hex4,
+	hex5,
+	leds,
+	end_FPGA,
+	end_User,
+	end_time,
+	win,
+	match	
+	);
+	
+	
+	localparam P_KEY		=4;
+	localparam P_SWITCH	=8;
+	localparam P_HEX		=7;
+	localparam P_LEDS		=4;
+
+	// Input Port(s)
+	input wire CLOCK_50;
+	input wire [P_KEY-1:0]KEY;
+	input wire [P_SWITCH-1:0]SWITCH;
+	input wire R1;
+	input wire R2;
+	input wire E1;
+	input wire E2;
+	input wire E3;
+	input wire E4;
+	input wire SEL;
+
+	// Output Ports
+	output wire [P_HEX-1:0]hex0;
+	output wire [P_HEX-1:0]hex1;
+	output wire [P_HEX-1:0]hex2;
+	output wire [P_HEX-1:0]hex3;
+	output wire [P_HEX-1:0]hex4;
+	output wire [P_HEX-1:0]hex5;
+	output wire [P_LEDS-1:0]leds;
+	output wire end_FPGA;
+	output wire end_User;
+	output wire end_time;
+	output wire win;
+	output wire match;
+	
+	
+	assign leds=0;
+	
+
+
+endmodule

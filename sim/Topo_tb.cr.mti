@@ -1,0 +1,73 @@
+C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo_tb.v {2 {vlog -work work {C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v(11): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Topo_tb
+
+Top level modules:
+	Topo_tb
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX4X1
+
+Top level modules:
+	MUX4X1
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX4x1_4bits
+
+Top level modules:
+	MUX4x1_4bits
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX2x1_7bits
+
+Top level modules:
+	MUX2x1_7bits
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/counter_time.v {1 {vlog -work work {C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\counter_time.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_time
+
+Top level modules:
+	counter_time
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Topo
+
+Top level modules:
+	Topo
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG_Setup
+
+Top level modules:
+	REG_Setup
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec7seg
+
+Top level modules:
+	dec7seg
+
+} {} {}} C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v {1 {vlog -work work C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controle
+
+Top level modules:
+	controle
+
+} {} {}}

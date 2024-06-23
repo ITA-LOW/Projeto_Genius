@@ -1,0 +1,201 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ENC\2024-1\DEC7555_HDL\Laboratorios\lab9\sim
+vcontrole
+Z1 !s100 8EPdn<n`NNLan?n2bn5kd0
+Z2 IhFTQbV4;gXKO^gO9eB6Ub1
+Z3 VK:jGAm`BZ9dG=TKh6Gl4o1
+Z4 dC:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\sim
+Z5 w1717769803
+Z6 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v
+Z7 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v
+L0 8
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v|
+Z10 o-work work -O0
+Z11 !s108 1717772460.637000
+Z12 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/controle.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_time
+!i10b 1
+!s100 :05>o7gLR]ib4TVE]2U8P3
+I<Snj10Qd2ia7ARTBB5eJ71
+Z13 VDCSRQ8G7@bkJ_Mkof0mPT2
+R4
+w1717772522
+Z14 8C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\counter_time.v
+Z15 FC:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\counter_time.v
+L0 11
+R8
+r1
+!s85 0
+31
+!s108 1717772529.329000
+!s107 C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\counter_time.v|
+Z16 !s90 -reportprogress|300|-work|work|C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\counter_time.v|
+!s101 -O0
+R10
+vdatapath
+Z17 !s100 d;C]aJMUlml=g09QnzAh30
+Z18 I9[S3PaFQVlfJ^14;TTenQ1
+Z19 VKFLz;i?2OMTgQD^2J7iD<1
+R4
+Z20 w1717767540
+Z21 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v
+Z22 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v
+L0 1
+R8
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v|
+R10
+Z24 !s108 1717772460.811000
+Z25 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdec7seg
+Z26 !s100 ;enkzho_[i:l0`eM0<DQ@2
+Z27 IVB<hRZ6:ig_5RA`MRCf3C1
+Z28 VSZE5EEH`6g6CU8T<af]>G1
+R4
+Z29 w1716560415
+Z30 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v
+Z31 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v
+L0 1
+R8
+r1
+31
+Z32 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v|
+R10
+Z33 !s108 1717772460.889000
+Z34 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/dec7seg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX2x1_7bits
+Z35 !s100 gX8HVF>BRcVX<FFH8Vo1I0
+Z36 I7lNVL3YHFOZelb6d^QncX0
+Z37 VoezdB[no`H>9D2GX4jm;l0
+R4
+Z38 w1716559693
+Z39 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v
+Z40 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v
+L0 1
+R8
+r1
+31
+Z41 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v|
+R10
+Z42 n@m@u@x2x1_7bits
+Z43 !s108 1717772460.968000
+Z44 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX2x1_7bits.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX4X1
+Z45 !s100 cD0V<bW=9D<KIzW72??ma2
+Z46 IV:i4Wm4O1;n8`k97UbHSd2
+Z47 VXlb3Yn[8>:X3g;7:^8UFz1
+R4
+Z48 w1716560013
+Z49 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v
+Z50 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v
+L0 1
+R8
+r1
+31
+Z51 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v|
+R10
+Z52 n@m@u@x4@x1
+Z53 !s108 1717772461.047000
+Z54 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4X1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX4x1_4bits
+Z55 !s100 IDHfLH3XRBX0Q[]I6_NdL0
+Z56 IKJXEW8oQlz9el_F9DjRCk3
+Z57 VQ7T92kZCVL]ejOEY9dnJE1
+R4
+Z58 w1716559627
+Z59 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v
+Z60 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v
+L0 1
+R8
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v|
+R10
+Z62 n@m@u@x4x1_4bits
+Z63 !s108 1717772461.141000
+Z64 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/MUX4x1_4bits.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vREG_Setup
+Z65 !s100 dD1lZ0Y6V?Dz`kzc5YN<I3
+Z66 IHEAzgazN@SV<S:bh=]Z;b3
+Z67 Va=z[O^k56IQ0C:JhRdNeh1
+R4
+Z68 w1716560910
+Z69 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v
+Z70 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v
+L0 1
+R8
+r1
+31
+Z71 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v|
+R10
+Z72 n@r@e@g_@setup
+Z73 !s108 1717772461.237000
+Z74 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/REG_Setup.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTopo
+Z75 !s100 X2nOo52>DN`8RD_XRZhPl3
+Z76 Il8NaeS5LoXaL=^@mI:CdW3
+Z77 VNX1>BOCf@iU:[9X=D=>_63
+R4
+Z78 w1717771633
+Z79 8C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v
+Z80 FC:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v
+L0 11
+R8
+r1
+31
+Z81 !s90 -reportprogress|300|-work|work|C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v|
+R10
+Z82 n@topo
+Z83 !s108 1717772461.316000
+Z84 !s107 C:/ENC/2024-1/DEC7555_HDL/Laboratorios/ProjetoFinal/src/Topo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTopo_tb
+Z85 !s100 dHZBj;j0Y^_@Hz_8b]48A2
+Z86 I;m?9RKO4eRO;4Dbe4GJNU1
+Z87 VMaW3hM4em:5?K1T2NaK^W2
+R4
+Z88 w1717771673
+Z89 8C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v
+Z90 FC:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v
+L0 13
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v|
+R10
+Z92 n@topo_tb
+!i10b 1
+!s85 0
+Z93 !s108 1717772461.396000
+Z94 !s107 C:\ENC\2024-1\DEC7555_HDL\Laboratorios\ProjetoFinal\src\Topo_tb.v|
+!s101 -O0

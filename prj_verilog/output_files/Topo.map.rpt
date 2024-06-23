@@ -1,0 +1,579 @@
+Analysis & Synthesis report for Topo
+Sat Jun 22 21:41:37 2024
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |Topo|controle:U1_FSM|state
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Port Connectivity Checks: "controle:U1_FSM"
+ 14. Port Connectivity Checks: "datapath:U0_DP|MUX4X1:FMS_mux4x1"
+ 15. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX8"
+ 16. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX6"
+ 17. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX5"
+ 18. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX4"
+ 19. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX2"
+ 20. Port Connectivity Checks: "datapath:U0_DP|dec7seg:DEC0"
+ 21. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX1"
+ 22. Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX0"
+ 23. Port Connectivity Checks: "datapath:U0_DP"
+ 24. Elapsed Time Per Partition
+ 25. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat Jun 22 21:41:37 2024      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; Topo                                       ;
+; Top-level Entity Name              ; Topo                                       ;
+; Family                             ; Cyclone III                                ;
+; Total logic elements               ; 15                                         ;
+;     Total combinational functions  ; 15                                         ;
+;     Dedicated logic registers      ; 7                                          ;
+; Total registers                    ; 7                                          ;
+; Total pins                         ; 67                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
+; Top-level entity name                                                      ; Topo               ; Topo               ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; ../src/mux2x1.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/mux2x1.v        ;         ;
+; ../src/Topo.v                    ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/Topo.v          ;         ;
+; ../src/datapath.v                ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/datapath.v      ;         ;
+; ../src/MUX4X1.v                  ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/MUX4X1.v        ;         ;
+; ../src/dec7seg.v                 ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/dec7seg.v       ;         ;
+; ../src/controle.v                ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/controle.v      ;         ;
+; ../src/counter_time.v            ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/counter_time.v  ;         ;
+; ../src/counter_round.v           ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/counter_round.v ;         ;
+; ../src/FMS_CLOCK.v               ; yes             ; User Verilog HDL File  ; C:/Users/Pichau/Downloads/ProjetoFinal/ProjetoFinal/src/FMS_CLOCK.v     ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                              ;
++---------------------------------------------+--------------------------------------------+
+; Resource                                    ; Usage                                      ;
++---------------------------------------------+--------------------------------------------+
+; Estimated Total logic elements              ; 15                                         ;
+;                                             ;                                            ;
+; Total combinational functions               ; 15                                         ;
+; Logic element usage by number of LUT inputs ;                                            ;
+;     -- 4 input functions                    ; 12                                         ;
+;     -- 3 input functions                    ; 1                                          ;
+;     -- <=2 input functions                  ; 2                                          ;
+;                                             ;                                            ;
+; Logic elements by mode                      ;                                            ;
+;     -- normal mode                          ; 15                                         ;
+;     -- arithmetic mode                      ; 0                                          ;
+;                                             ;                                            ;
+; Total registers                             ; 7                                          ;
+;     -- Dedicated logic registers            ; 7                                          ;
+;     -- I/O registers                        ; 0                                          ;
+;                                             ;                                            ;
+; I/O pins                                    ; 67                                         ;
+; Embedded Multiplier 9-bit elements          ; 0                                          ;
+; Maximum fan-out node                        ; datapath:U0_DP|counter_time:U0_CT|TEMPO[0] ;
+; Maximum fan-out                             ; 11                                         ;
+; Total fan-out                               ; 147                                        ;
+; Average fan-out                             ; 0.94                                       ;
++---------------------------------------------+--------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                             ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                     ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
+; |Topo                      ; 15 (0)            ; 7 (0)        ; 0           ; 0            ; 0       ; 0         ; 67   ; 0            ; |Topo                                   ; work         ;
+;    |controle:U1_FSM|       ; 4 (4)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Topo|controle:U1_FSM                   ; work         ;
+;    |datapath:U0_DP|        ; 11 (0)            ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Topo|datapath:U0_DP                    ; work         ;
+;       |counter_time:U0_CT| ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Topo|datapath:U0_DP|counter_time:U0_CT ; work         ;
+;       |dec7seg:DEC1|       ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Topo|datapath:U0_DP|dec7seg:DEC1       ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Topo|controle:U1_FSM|state                                                                                     ;
++------------------+--------------+------------------+-------------+-----------------+-----------------+-------------+------------+
+; Name             ; state.Result ; state.Next_Round ; state.Check ; state.Play_User ; state.Play_FPGA ; state.Setup ; state.Init ;
++------------------+--------------+------------------+-------------+-----------------+-----------------+-------------+------------+
+; state.Init       ; 0            ; 0                ; 0           ; 0               ; 0               ; 0           ; 0          ;
+; state.Setup      ; 0            ; 0                ; 0           ; 0               ; 0               ; 1           ; 1          ;
+; state.Play_FPGA  ; 0            ; 0                ; 0           ; 0               ; 1               ; 0           ; 1          ;
+; state.Play_User  ; 0            ; 0                ; 0           ; 1               ; 0               ; 0           ; 1          ;
+; state.Check      ; 0            ; 0                ; 1           ; 0               ; 0               ; 0           ; 1          ;
+; state.Next_Round ; 0            ; 1                ; 0           ; 0               ; 0               ; 0           ; 1          ;
+; state.Result     ; 1            ; 0                ; 0           ; 0               ; 0               ; 0           ; 1          ;
++------------------+--------------+------------------+-------------+-----------------+-----------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                         ;
++----------------------------------------------+---------------------------------------------+
+; Register name                                ; Reason for Removal                          ;
++----------------------------------------------+---------------------------------------------+
+; datapath:U0_DP|counter_round:CR1|total[0..3] ; Stuck at GND due to stuck port clock_enable ;
+; datapath:U0_DP|counter_round:CR1|tc          ; Stuck at GND due to stuck port clock_enable ;
+; controle:U1_FSM|state.Check                  ; Lost fanout                                 ;
+; controle:U1_FSM|state.Next_Round             ; Lost fanout                                 ;
+; controle:U1_FSM|state~2                      ; Lost fanout                                 ;
+; controle:U1_FSM|state~3                      ; Lost fanout                                 ;
+; controle:U1_FSM|state~4                      ; Lost fanout                                 ;
+; controle:U1_FSM|state.Play_User              ; Stuck at GND due to stuck port data_in      ;
+; controle:U1_FSM|state.Result                 ; Stuck at GND due to stuck port data_in      ;
+; Total Number of Removed Registers = 12       ;                                             ;
++----------------------------------------------+---------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                  ;
++-------------------------------------------+--------------------------------+---------------------------------------------------------------------------------+
+; Register name                             ; Reason for Removal             ; Registers Removed due to This Register                                          ;
++-------------------------------------------+--------------------------------+---------------------------------------------------------------------------------+
+; datapath:U0_DP|counter_round:CR1|total[0] ; Stuck at GND                   ; datapath:U0_DP|counter_round:CR1|total[1],                                      ;
+;                                           ; due to stuck port clock_enable ; datapath:U0_DP|counter_round:CR1|total[2],                                      ;
+;                                           ;                                ; datapath:U0_DP|counter_round:CR1|total[3], datapath:U0_DP|counter_round:CR1|tc, ;
+;                                           ;                                ; controle:U1_FSM|state.Play_User                                                 ;
++-------------------------------------------+--------------------------------+---------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 7     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 4     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+; 7:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |Topo|controle:U1_FSM|state ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "controle:U1_FSM"       ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; E2   ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|MUX4X1:FMS_mux4x1"                                                    ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                             ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; CLKHZ ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX8" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; b[4..3] ; Input ; Info     ; Stuck at VCC              ;
+; b[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[6]    ; Input ; Info     ; Stuck at VCC              ;
+; b[5]    ; Input ; Info     ; Stuck at GND              ;
+; b[2]    ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX6" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a[4..3] ; Input ; Info     ; Stuck at VCC              ;
+; a[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; a[6]    ; Input ; Info     ; Stuck at VCC              ;
+; a[5]    ; Input ; Info     ; Stuck at GND              ;
+; a[2]    ; Input ; Info     ; Stuck at GND              ;
+; b[6..5] ; Input ; Info     ; Stuck at VCC              ;
+; b[2..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[4..3] ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX5" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; b[3..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[6..4] ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX4" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a[3..0] ; Input ; Info     ; Stuck at VCC              ;
+; a[5..4] ; Input ; Info     ; Stuck at GND              ;
+; a[6]    ; Input ; Info     ; Stuck at VCC              ;
+; b[6..3] ; Input ; Info     ; Stuck at VCC              ;
+; b[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[2]    ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX2" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a[4..3] ; Input ; Info     ; Stuck at VCC              ;
+; a[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; a[6]    ; Input ; Info     ; Stuck at VCC              ;
+; a[5]    ; Input ; Info     ; Stuck at GND              ;
+; a[2]    ; Input ; Info     ; Stuck at GND              ;
+; b[6..5] ; Input ; Info     ; Stuck at VCC              ;
+; b[2..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[4..3] ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|dec7seg:DEC0" ;
++-------------+-------+----------+------------------------+
+; Port        ; Type  ; Severity ; Details                ;
++-------------+-------+----------+------------------------+
+; bcd_i[3..2] ; Input ; Info     ; Stuck at GND           ;
++-------------+-------+----------+------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX1"                                                                                                                 ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                   ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; a       ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (7 bits) it drives.  Extra input bit(s) "a[6..1]" will be connected to GND. ;
+; b[3..1] ; Input ; Info     ; Stuck at VCC                                                                                                                              ;
+; b[6..4] ; Input ; Info     ; Stuck at GND                                                                                                                              ;
+; b[0]    ; Input ; Info     ; Stuck at GND                                                                                                                              ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP|mux2x1:MUX0"                                                                                             ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                                                              ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; a[2..0] ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
+; a[5..3] ; Input  ; Info     ; Stuck at GND                                                                                                         ;
+; a[6]    ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
+; b[4..3] ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
+; b[1..0] ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
+; b[6]    ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
+; b[5]    ; Input  ; Info     ; Stuck at GND                                                                                                         ;
+; b[2]    ; Input  ; Info     ; Stuck at GND                                                                                                         ;
+; q       ; Output ; Warning  ; Output or bidir port (7 bits) is wider than the port expression (1 bits) it drives; bit(s) "q[6..1]" have no fanouts ;
++---------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------+
+; Port Connectivity Checks: "datapath:U0_DP"        ;
++------+--------+----------+------------------------+
+; Port ; Type   ; Severity ; Details                ;
++------+--------+----------+------------------------+
+; E2   ; Input  ; Info     ; Stuck at VCC           ;
+; leds ; Output ; Info     ; Explicitly unconnected ;
++------+--------+----------+------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Sat Jun 22 21:41:36 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off genius_prj -c Topo
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/mux2x1.v
+    Info (12023): Found entity 1: mux2x1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/topo.v
+    Info (12023): Found entity 1: Topo
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/datapath.v
+    Info (12023): Found entity 1: datapath
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/mux4x1_4bits.v
+    Info (12023): Found entity 1: MUX4x1_4bits
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/mux4x1.v
+    Info (12023): Found entity 1: MUX4X1
+Warning (10238): Verilog Module Declaration warning at dec7seg.v(5): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "dec7seg"
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/dec7seg.v
+    Info (12023): Found entity 1: dec7seg
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/reg_setup.v
+    Info (12023): Found entity 1: REG_Setup
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/controle.v
+    Info (12023): Found entity 1: controle
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/counter_time.v
+    Info (12023): Found entity 1: counter_time
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/counter_round.v
+    Info (12023): Found entity 1: counter_round
+Info (12021): Found 0 design units, including 0 entities, in source file topo.v
+Info (12021): Found 1 design units, including 1 entities, in source file /users/pichau/downloads/projetofinal/projetofinal/src/fms_clock.v
+    Info (12023): Found entity 1: FMS_CLOCK
+Info (12127): Elaborating entity "Topo" for the top level hierarchy
+Warning (10034): Output port "LEDR" at Topo.v(31) has no driver
+Info (12128): Elaborating entity "datapath" for hierarchy "datapath:U0_DP"
+Warning (10034): Output port "end_FPGA" at datapath.v(53) has no driver
+Warning (10034): Output port "end_User" at datapath.v(54) has no driver
+Warning (10034): Output port "match" at datapath.v(57) has no driver
+Info (12128): Elaborating entity "counter_time" for hierarchy "datapath:U0_DP|counter_time:U0_CT"
+Info (12128): Elaborating entity "mux2x1" for hierarchy "datapath:U0_DP|mux2x1:MUX0"
+Info (12128): Elaborating entity "dec7seg" for hierarchy "datapath:U0_DP|dec7seg:DEC0"
+Info (12128): Elaborating entity "counter_round" for hierarchy "datapath:U0_DP|counter_round:CR1"
+Critical Warning (10237): Verilog HDL warning at counter_round.v(31): can't infer register for assignment in edge-triggered always construct because the clock isn't obvious. Generated combinational logic instead
+Info (12128): Elaborating entity "FMS_CLOCK" for hierarchy "datapath:U0_DP|FMS_CLOCK:fms01"
+Warning (10230): Verilog HDL assignment warning at FMS_CLOCK.v(41): truncated value with size 32 to match size of target (28)
+Warning (10230): Verilog HDL assignment warning at FMS_CLOCK.v(49): truncated value with size 32 to match size of target (27)
+Warning (10230): Verilog HDL assignment warning at FMS_CLOCK.v(57): truncated value with size 32 to match size of target (26)
+Warning (10230): Verilog HDL assignment warning at FMS_CLOCK.v(65): truncated value with size 32 to match size of target (25)
+Info (12128): Elaborating entity "MUX4X1" for hierarchy "datapath:U0_DP|MUX4X1:FMS_mux4x1"
+Warning (10034): Output port "CLKHZ" at MUX4X1.v(21) has no driver
+Info (12128): Elaborating entity "controle" for hierarchy "controle:U1_FSM"
+Warning (10235): Verilog HDL Always Construct warning at controle.v(51): variable "enter" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "datapath:U0_DP|SETUP[7]" is missing source, defaulting to GND
+    Warning (12110): Net "datapath:U0_DP|SETUP[6]" is missing source, defaulting to GND
+Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR[0]" is stuck at GND
+    Warning (13410): Pin "LEDR[1]" is stuck at GND
+    Warning (13410): Pin "LEDR[2]" is stuck at GND
+    Warning (13410): Pin "LEDR[3]" is stuck at GND
+    Warning (13410): Pin "LEDR[4]" is stuck at GND
+    Warning (13410): Pin "LEDR[5]" is stuck at GND
+    Warning (13410): Pin "LEDR[6]" is stuck at GND
+    Warning (13410): Pin "LEDR[7]" is stuck at GND
+    Warning (13410): Pin "LEDR[8]" is stuck at GND
+    Warning (13410): Pin "LEDR[9]" is stuck at GND
+    Warning (13410): Pin "HEX0[0]" is stuck at GND
+    Warning (13410): Pin "HEX0[1]" is stuck at GND
+    Warning (13410): Pin "HEX0[2]" is stuck at GND
+    Warning (13410): Pin "HEX0[3]" is stuck at GND
+    Warning (13410): Pin "HEX0[4]" is stuck at GND
+    Warning (13410): Pin "HEX0[5]" is stuck at GND
+    Warning (13410): Pin "HEX0[6]" is stuck at VCC
+    Warning (13410): Pin "HEX1[0]" is stuck at VCC
+    Warning (13410): Pin "HEX1[1]" is stuck at VCC
+    Warning (13410): Pin "HEX1[2]" is stuck at GND
+    Warning (13410): Pin "HEX1[3]" is stuck at VCC
+    Warning (13410): Pin "HEX1[4]" is stuck at VCC
+    Warning (13410): Pin "HEX1[5]" is stuck at GND
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC
+    Warning (13410): Pin "HEX3[4]" is stuck at GND
+    Warning (13410): Pin "HEX3[5]" is stuck at GND
+    Warning (13410): Pin "HEX3[6]" is stuck at GND
+    Warning (13410): Pin "HEX4[0]" is stuck at GND
+    Warning (13410): Pin "HEX4[1]" is stuck at GND
+    Warning (13410): Pin "HEX4[2]" is stuck at GND
+    Warning (13410): Pin "HEX4[3]" is stuck at GND
+    Warning (13410): Pin "HEX4[4]" is stuck at GND
+    Warning (13410): Pin "HEX4[5]" is stuck at GND
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC
+    Warning (13410): Pin "HEX5[0]" is stuck at GND
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC
+    Warning (13410): Pin "HEX5[4]" is stuck at GND
+    Warning (13410): Pin "HEX5[5]" is stuck at GND
+    Warning (13410): Pin "HEX5[6]" is stuck at GND
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 5 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 12 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "KEY[0]"
+    Warning (15610): No output dependent on input pin "KEY[1]"
+    Warning (15610): No output dependent on input pin "KEY[2]"
+    Warning (15610): No output dependent on input pin "KEY[3]"
+    Warning (15610): No output dependent on input pin "SW[2]"
+    Warning (15610): No output dependent on input pin "SW[3]"
+    Warning (15610): No output dependent on input pin "SW[4]"
+    Warning (15610): No output dependent on input pin "SW[5]"
+    Warning (15610): No output dependent on input pin "SW[6]"
+    Warning (15610): No output dependent on input pin "SW[7]"
+    Warning (15610): No output dependent on input pin "SW[8]"
+    Warning (15610): No output dependent on input pin "SW[9]"
+Info (21057): Implemented 82 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 52 output pins
+    Info (21061): Implemented 15 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 76 warnings
+    Info: Peak virtual memory: 4623 megabytes
+    Info: Processing ended: Sat Jun 22 21:41:37 2024
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+

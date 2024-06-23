@@ -1,0 +1,17 @@
+module dec7seg
+(
+	G,
+	O
+);
+
+	localparam P_G	=4;
+	localparam P_O	=7;
+
+	// Input Port(s)
+	input wire [P_G-1:0]G;
+
+	
+	// Output Port(s)
+	output  wire [P_O-1:0]O;
+
+endmodule
