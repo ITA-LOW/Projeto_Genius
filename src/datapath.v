@@ -205,7 +205,7 @@ counter_round CR1
 (
 	.data(SETUP[3:0]),
 	.clk(CLOCK_50),
-	.R(R1),
+	.R(R1),														//PERGUNTAR PARA O RODDRIGO
 	.E(E4),
 	.tc(win),
 	.ROUND(ROUND)
@@ -225,7 +225,7 @@ FMS_CLOCK fms01
 	.reset(R1),
 	.clk_025Hz(clk_025Hz), 	// 00
 	.clk_05Hz(clk_05Hz),  	// 01
-	.clk_1Hz(clk_1Hz),	  	// 10							SERA QUE ISSO TA CERTO, PERGUNTAR PARA O RODRIGO
+	.clk_1Hz(clk_1Hz),	  	// 10							PERGUNTAR PARA O RODRIGO
 	.clk_2Hz(clk_2Hz)			// 11
 );
 
