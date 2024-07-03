@@ -38,7 +38,7 @@ always @(posedge clk_50MHz or posedge reset) begin
             c025 <= 0;
             clk_025Hz <= ~clk_025Hz; 
         end else begin
-            c025 <= c025 + 1; // incrementa o contador
+            c025 <= c025 + 1'b1; // incrementa o contador
         end
 
         // Contador para 0.5 Hz
@@ -46,7 +46,7 @@ always @(posedge clk_50MHz or posedge reset) begin
             c05 <= 0;
             clk_05Hz <= ~clk_05Hz; 
         end else begin
-            c05 <= c05 + 1;
+            c05 <= c05 + 1'b1;
         end
 
         // Contador para 1 Hz
@@ -54,7 +54,7 @@ always @(posedge clk_50MHz or posedge reset) begin
             c1 <= 0;
             clk_1Hz <= ~clk_1Hz;
         end else begin
-            c1 <= c1 + 1;
+            c1 <= c1 + 1'b1;
         end
 
         // Contador para 2 Hz
@@ -62,7 +62,7 @@ always @(posedge clk_50MHz or posedge reset) begin
             c2 <= 0;
             clk_2Hz <= ~clk_2Hz;
         end else begin
-            c2 <= c2 + 1;
+            c2 <= c2 + 1'b1;
         end 
     end
 end

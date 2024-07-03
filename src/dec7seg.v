@@ -1,7 +1,7 @@
 module dec7seg
 (
 bcd_i,
-seg_o,
+seg_o
 );
 
 

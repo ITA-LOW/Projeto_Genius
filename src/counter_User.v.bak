@@ -1,0 +1,23 @@
+/*
+	counter_round.v
+	Ronzani, MaurÃ­cio Darabas
+	
+	DescriÃ§ao: Arquivo counter_round.v 
+	
+	RevisÃ£o:
+	
+	*/
+	 
+	module counter_User (
+     
+    input wire clk,       
+    input wire R,         
+    input wire E,
+	 input wire [3:0] data,	 
+    output reg tc,        
+);
+endmodule
+	
+	
+	
+	

@@ -12,7 +12,7 @@
 	(
 		CLOCK_50, KEY,	SW,
 		
-		LEDR,
+		LEDR, LEDS,
 		HEX0,	HEX1,	HEX2,	HEX3,	HEX4,	HEX5		
 	);
 	
@@ -28,7 +28,8 @@
 
 
 	// Output Ports
-	output wire [P_LEDR-1:0] LEDR;
+	output wire [3:0] LEDR;
+	output wire [9:6] LEDS;
 	output wire [P_HEX-1:0] HEX0;
 	output wire [P_HEX-1:0] HEX1;
 	output wire [P_HEX-1:0] HEX2;
@@ -47,7 +48,7 @@
 		.R1(w_R1), .R2(w_R2), .E1(w_E1), .E2(1'b1), .E3(w_E3), .E4(w_E4), .SEL(w_SEL),
 		//saídas de dados
 		.hex0(HEX0), .hex1(HEX1), .hex2(HEX2),	.hex3(HEX3), .hex4(HEX4), .hex5(HEX5),
-		.leds(),
+		.ledr(LEDR[3:0]), .leds(LEDS[9:6]),
 		//saídas de dados
 		.end_FPGA(w_end_FPGA), .end_User(w_end_User), .end_time(w_end_time), .win(w_win), .match(w_match)	
 	);

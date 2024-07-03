@@ -1,0 +1,12 @@
+module LOGICA (
+    input [1:0] REG_SetupLEVEL,
+    input [3:0] ROUND,
+    input [1:0] REG_SetupMAPA,
+    output reg [7:0] POINTS
+);
+
+    always @ (REG_SetupLEVEL, ROUND, REG_SetupMAPA) begin
+        POINTS = {REG_SetupLEVEL, ROUND, REG_SetupMAPA};
+    end
+
+endmodule

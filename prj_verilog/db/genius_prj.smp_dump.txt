@@ -8,3 +8,27 @@ state.Play_User 0 0 0 1 0 0 1
 state.Check 0 0 1 0 0 0 1 
 state.Next_Round 0 1 0 0 0 0 1 
 state.Result 1 0 0 0 0 0 1 
+
+State Machine - |Topo|datapath:U0_DP|buttonSync:sync3|current_state
+Name current_state.EsperaApertar current_state.EsperaSoltar current_state.SaidaAtiva 
+current_state.EsperaApertar 0 0 0 
+current_state.SaidaAtiva 1 0 1 
+current_state.EsperaSoltar 1 1 0 
+
+State Machine - |Topo|datapath:U0_DP|buttonSync:sync2|current_state
+Name current_state.EsperaApertar current_state.EsperaSoltar current_state.SaidaAtiva 
+current_state.EsperaApertar 0 0 0 
+current_state.SaidaAtiva 1 0 1 
+current_state.EsperaSoltar 1 1 0 
+
+State Machine - |Topo|datapath:U0_DP|buttonSync:sync1|current_state
+Name current_state.EsperaApertar current_state.EsperaSoltar current_state.SaidaAtiva 
+current_state.EsperaApertar 0 0 0 
+current_state.SaidaAtiva 1 0 1 
+current_state.EsperaSoltar 1 1 0 
+
+State Machine - |Topo|datapath:U0_DP|buttonSync:sync0|current_state
+Name current_state.EsperaApertar current_state.EsperaSoltar current_state.SaidaAtiva 
+current_state.EsperaApertar 0 0 0 
+current_state.SaidaAtiva 1 0 1 
+current_state.EsperaSoltar 1 1 0 

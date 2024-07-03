@@ -1,0 +1,29 @@
+module counter_FPGA (
+    input wire [3:0] data, 
+    input wire clk,       
+    input wire R,         
+    input wire E,         
+    output reg tc,        
+    output reg [3:0] SEQFPGA 
+);
+
+reg [3:0] total; 
+always @(posedge clk or posedge R) begin
+    if (R) begin
+        total <= 4'b0000; 
+        tc <= 1'b0;       
+    end else if (E) begin
+        total <= total + 1'b1; 
+        if (total == data) begin
+            tc <= 1'b1; 
+        end
+    end
+end
+
+always @(total or R) begin
+    if (R) 
+		SEQFPGA <= 0;     
+	else
+		SEQFPGA <= total; 
+end
+

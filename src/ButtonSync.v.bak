@@ -1,0 +1,102 @@
+module ButtonSync (
+    input wire KEY0, KEY1, KEY2, KEY3, CLK,
+    output reg BTN0, BTN1, BTN2, BTN3
+);
+
+    // Definição dos estados
+    typedef enum reg [1:0] {EsperaApertar, SaidaAtiva, EsperaSoltar} STATES;
+    reg [1:0] btn0state, btn1state, btn2state, btn3state;
+    reg [1:0] btn0next, btn1next, btn2next, btn3next;
+
+    initial begin
+        btn0state = EsperaApertar;
+        btn1state = EsperaApertar;
+        btn2state = EsperaApertar;
+        btn3state = EsperaApertar;
+        btn0next = EsperaApertar;
+        btn1next = EsperaApertar;
+        btn2next = EsperaApertar;
+        btn3next = EsperaApertar;
+    end
+
+    // Atualização dos estados na borda positiva do clock
+    always @(posedge CLK) begin
+        btn0state <= btn0next;			
+        btn1state <= btn1next;
+        btn2state <= btn2next;
+        btn3state <= btn3next;
+    end
+
+    // Máquina de estados para o botão 0
+    always @(*) begin
+        case (btn0state)
+            EsperaApertar: begin
+                if (KEY0 == 1'b0) btn0next = SaidaAtiva; else btn0next = EsperaApertar;
+                BTN0 = 1'b1;
+            end
+            SaidaAtiva: begin
+                if (KEY0 == 1'b0) btn0next = EsperaSoltar; else btn0next = EsperaApertar;
+                BTN0 = 1'b0;
+            end
+            EsperaSoltar: begin
+                if (KEY0 == 1'b0) btn0next = EsperaSoltar; else btn0next = EsperaApertar;
+                BTN0 = 1'b1;
+            end
+        endcase		
+    end
+
+    // Máquina de estados para o botão 1
+    always @(*) begin
+        case (btn1state)
+            EsperaApertar: begin
+                if (KEY1 == 1'b0) btn1next = SaidaAtiva; else btn1next = EsperaApertar;
+                BTN1 = 1'b1;
+            end
+            SaidaAtiva: begin
+                if (KEY1 == 1'b0) btn1next = EsperaSoltar; else btn1next = EsperaApertar;
+                BTN1 = 1'b0;
+            end
+            EsperaSoltar: begin
+                if (KEY1 == 1'b0) btn1next = EsperaSoltar; else btn1next = EsperaApertar;
+                BTN1 = 1'b1;
+            end
+        endcase		
+    end
+
+    // Máquina de estados para o botão 2
+    always @(*) begin
+        case (btn2state)
+            EsperaApertar: begin
+                if (KEY2 == 1'b0) btn2next = SaidaAtiva; else btn2next = EsperaApertar;
+                BTN2 = 1'b1;
+            end
+            SaidaAtiva: begin
+                if (KEY2 == 1'b0) btn2next = EsperaSoltar; else btn2next = EsperaApertar;
+                BTN2 = 1'b0;
+            end
+            EsperaSoltar: begin
+                if (KEY2 == 1'b0) btn2next = EsperaSoltar; else btn2next = EsperaApertar;
+                BTN2 = 1'b1;
+            end
+        endcase		
+    end
+
+    // Máquina de estados para o botão 3
+    always @(*) begin
+        case (btn3state)
+            EsperaApertar: begin
+                if (KEY3 == 1'b0) btn3next = SaidaAtiva; else btn3next = EsperaApertar;
+                BTN3 = 1'b1;
+            end
+            SaidaAtiva: begin
+                if (KEY3 == 1'b0) btn3next = EsperaSoltar; else btn3next = EsperaApertar;
+                BTN3 = 1'b0;
+            end
+            EsperaSoltar: begin
+                if (KEY3 == 1'b0) btn3next = EsperaSoltar; else btn3next = EsperaApertar;
+                BTN3 = 1'b1;
+            end
+        endcase		
+    end
+
+endmodule

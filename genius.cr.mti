@@ -1,0 +1,164 @@
+C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SEQ1
+
+Top level modules:
+	SEQ1
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dec7seg
+
+Top level modules:
+	dec7seg
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SEQ2
+
+Top level modules:
+	SEQ2
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG_FPGA
+
+Top level modules:
+	REG_FPGA
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SEQ3
+
+Top level modules:
+	SEQ3
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX4x1_4bits
+
+Top level modules:
+	MUX4x1_4bits
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX2x1_7bits
+
+Top level modules:
+	MUX2x1_7bits
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG_Setup
+
+Top level modules:
+	REG_Setup
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/controle.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/controle.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controle
+
+Top level modules:
+	controle
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_User.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_User.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_User
+
+Top level modules:
+	counter_User
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX4X1
+
+Top level modules:
+	MUX4X1
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module LOGICA
+
+Top level modules:
+	LOGICA
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Topo
+
+Top level modules:
+	Topo
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module REG_USER
+
+Top level modules:
+	REG_USER
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_FPGA.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_FPGA.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_FPGA
+
+Top level modules:
+	counter_FPGA
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_time.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_time.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_time
+
+Top level modules:
+	counter_time
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v {2 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v(11): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Topo_tb
+
+Top level modules:
+	Topo_tb
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module counter_round
+
+Top level modules:
+	counter_round
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SEQ0
+
+Top level modules:
+	SEQ0
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module buttonSync
+
+Top level modules:
+	buttonSync
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FMS_CLOCK
+
+Top level modules:
+	FMS_CLOCK
+
+} {} {}}
