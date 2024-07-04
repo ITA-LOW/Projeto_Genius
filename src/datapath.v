@@ -58,8 +58,7 @@
 	output wire win;
 	output wire match;
 	
-	assign ledr = OUT_FPGA[63:60];
-	assign leds = ~KEY[3:0];
+
 	//assign leds = 0;
 	 
 	
@@ -377,7 +376,8 @@ MUX4X1 MUX11 (
     );
 
 //------------------------------------------------------------------------------------------------
-
+	assign ledr = OUT_FPGA[63:60];
+	assign leds = ~KEY[3:0];
 
 
 endmodule

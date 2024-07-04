@@ -20,8 +20,8 @@ module Topo_tb;
 	(
 		.CLOCK_50(r_CLOCK_50), .KEY(r_KEY),	.SW(r_SW),
 		
-		.LEDR(),
-		.HEX0(),	.HEX1(),	.HEX2(),	.HEX3(),	.HEX4(),	.HEX5()		
+		.LEDR(ledr), .LEDS(leds),
+		.HEX0(hex0),	.HEX1(hex1),	.HEX2(hex2),	.HEX3(hex3),	.HEX4(hex4),	.HEX5(hex5)		
 	);
 	
 	initial r_CLOCK_50=0;

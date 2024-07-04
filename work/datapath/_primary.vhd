@@ -19,6 +19,7 @@ entity datapath is
         hex4            : out    vl_logic_vector(6 downto 0);
         hex5            : out    vl_logic_vector(6 downto 0);
         leds            : out    vl_logic_vector(3 downto 0);
+        ledr            : out    vl_logic_vector(3 downto 0);
         end_FPGA        : out    vl_logic;
         end_User        : out    vl_logic;
         end_time        : out    vl_logic;

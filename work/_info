@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v|
 Z10 o-work work -O0
 Z11 nbutton@sync
-Z12 !s108 1720036408.485000
+Z12 !s108 1720105971.818000
 Z13 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v|
 !i10b 1
 !s85 0
@@ -37,7 +37,7 @@ r1
 31
 Z20 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/controle.v|
 R10
-Z21 !s108 1720036408.548000
+Z21 !s108 1720105971.897000
 Z22 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/controle.v|
 !i10b 1
 !s85 0
@@ -57,7 +57,7 @@ r1
 Z29 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_FPGA.v|
 R10
 Z30 ncounter_@f@p@g@a
-Z31 !s108 1720036408.610000
+Z31 !s108 1720105971.967000
 Z32 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_FPGA.v|
 !i10b 1
 !s85 0
@@ -76,7 +76,7 @@ r1
 31
 Z39 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v|
 R10
-Z40 !s108 1720036408.673000
+Z40 !s108 1720105972.039000
 Z41 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v|
 !i10b 1
 !s85 0
@@ -95,7 +95,7 @@ r1
 31
 Z48 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_time.v|
 R10
-Z49 !s108 1720036408.735000
+Z49 !s108 1720105972.168000
 Z50 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_time.v|
 !i10b 1
 !s85 0
@@ -115,345 +115,345 @@ r1
 Z57 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_User.v|
 R10
 Z58 ncounter_@user
-Z59 !s108 1720036408.813000
+Z59 !s108 1720105972.238000
 Z60 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_User.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdatapath
 !i10b 1
-!s100 <A7ffj5@BC^93?2LNYm@T1
-I=0Xak4QAjZ[741WJ=9SF82
-VKFLz;i?2OMTgQD^2J7iD<1
+Z61 !s100 nXE>=]:Q0SCTFdRaY95M>3
+Z62 I?acWNT>agNA@FS]<_NgCD1
+Z63 VjJ0S>45^UJkMM84B3`nP60
 R4
-w1720036385
-8C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
-FC:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
+Z64 w1720042117
+Z65 8C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
+Z66 FC:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
 L0 1
 R8
 r1
 !s85 0
 31
-!s108 1720036409.970000
+!s108 1720105973.448000
 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v|
+Z67 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v|
 !s101 -O0
 R10
 vdec7seg
-Z61 !s100 E59gYVVCEXGz3Ak>WDQ061
-Z62 IiF2X4AoMmCVDZIIFJCmR?0
-Z63 V;@TYdThc;?A3D25HPX8Fa2
+Z68 !s100 E59gYVVCEXGz3Ak>WDQ061
+Z69 IiF2X4AoMmCVDZIIFJCmR?0
+Z70 V;@TYdThc;?A3D25HPX8Fa2
 R4
-Z64 w1719874442
-Z65 8C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v
-Z66 FC:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v
+Z71 w1719874442
+Z72 8C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v
+Z73 FC:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v
 L0 1
 R8
 r1
 31
-Z67 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v|
+Z74 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v|
 R10
-Z68 !s108 1720036408.876000
-Z69 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v|
+Z75 !s108 1720105972.318000
+Z76 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/dec7seg.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vFMS_CLOCK
-Z70 !s100 1a6E41[Cfg3;9]X^5K`gg2
-Z71 IlkYAz8WjaXT9m2M[3jNlQ2
-Z72 V5:P[Kn_K2SEbXVL>6]22Q0
+Z77 !s100 1a6E41[Cfg3;9]X^5K`gg2
+Z78 IlkYAz8WjaXT9m2M[3jNlQ2
+Z79 V5:P[Kn_K2SEbXVL>6]22Q0
 R4
-Z73 w1719874582
-Z74 8C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
-Z75 FC:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
+Z80 w1719874582
+Z81 8C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
+Z82 FC:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
 L0 4
 R8
 r1
 31
-Z76 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v|
+Z83 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v|
 R10
-Z77 n@f@m@s_@c@l@o@c@k
-Z78 !s108 1720036408.938000
-Z79 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v|
+Z84 n@f@m@s_@c@l@o@c@k
+Z85 !s108 1720105972.378000
+Z86 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vLOGICA
-Z80 !s100 H4i5<S?MF]]FgMW8Y[fja3
-Z81 IdGD50jQfniNW;<eMVz6zj3
-Z82 VPO[=b`@IYNj9S:M]ZkaPD3
+Z87 !s100 H4i5<S?MF]]FgMW8Y[fja3
+Z88 IdGD50jQfniNW;<eMVz6zj3
+Z89 VPO[=b`@IYNj9S:M]ZkaPD3
 R4
-Z83 w1720027371
-Z84 8C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
-Z85 FC:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
+Z90 w1720027371
+Z91 8C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
+Z92 FC:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
 L0 1
 R8
 r1
 31
-Z86 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v|
+Z93 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v|
 R10
-Z87 n@l@o@g@i@c@a
-Z88 !s108 1720036409.001000
-Z89 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v|
+Z94 n@l@o@g@i@c@a
+Z95 !s108 1720105972.447000
+Z96 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmux2x1
-Z90 !s100 M47hcRh_L<H48kZ5UabL<0
-Z91 I1KZm0hlI@h5JaM_;CglMH1
-Z92 Vi5Bfkj46@IFBTdz6o56fH2
+Z97 !s100 M47hcRh_L<H48kZ5UabL<0
+Z98 I1KZm0hlI@h5JaM_;CglMH1
+Z99 Vi5Bfkj46@IFBTdz6o56fH2
 R4
-Z93 w1718977054
-Z94 8C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v
-Z95 FC:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v
+Z100 w1718977054
+Z101 8C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v
+Z102 FC:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v
 L0 1
 R8
 r1
 31
-Z96 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v|
+Z103 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v|
 R10
-Z97 !s108 1720036409.063000
-Z98 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v|
+Z104 !s108 1720105972.518000
+Z105 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/mux2x1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX2x1_7bits
-Z99 !s100 JIn2???gJ_6<dKAM2T]3M1
-Z100 ImA95FAkm]W=77?78[[3^S1
-Z101 VoezdB[no`H>9D2GX4jm;l0
+Z106 !s100 JIn2???gJ_6<dKAM2T]3M1
+Z107 ImA95FAkm]W=77?78[[3^S1
+Z108 VoezdB[no`H>9D2GX4jm;l0
 R4
-Z102 w1716559693
-Z103 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v
-Z104 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v
+Z109 w1716559693
+Z110 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v
+Z111 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v
 L0 1
 R8
 r1
 31
-Z105 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v|
+Z112 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v|
 R10
-Z106 n@m@u@x2x1_7bits
-Z107 !s108 1720036409.141000
-Z108 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v|
+Z113 n@m@u@x2x1_7bits
+Z114 !s108 1720105972.588000
+Z115 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX2x1_7bits.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX4X1
-Z109 !s100 3lo9:mT6ADII]Z`_i^^l^0
-Z110 IOiKg<E_JXhJ`ologYQ[Ne0
-Z111 VXlb3Yn[8>:X3g;7:^8UFz1
+Z116 !s100 3lo9:mT6ADII]Z`_i^^l^0
+Z117 IOiKg<E_JXhJ`ologYQ[Ne0
+Z118 VXlb3Yn[8>:X3g;7:^8UFz1
 R4
-Z112 w1716560013
-Z113 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
-Z114 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
+Z119 w1716560013
+Z120 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
+Z121 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
 L0 1
 R8
 r1
 31
-Z115 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v|
+Z122 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v|
 R10
-Z116 n@m@u@x4@x1
-Z117 !s108 1720036409.204000
-Z118 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v|
+Z123 n@m@u@x4@x1
+Z124 !s108 1720105972.660000
+Z125 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX4x1_4bits
-Z119 !s100 QSSd_^TlLY_<]HQU7E_Q82
-Z120 IRNMbmnj?EMPGjX8V=6EWK2
-Z121 VQ7T92kZCVL]ejOEY9dnJE1
+Z126 !s100 QSSd_^TlLY_<]HQU7E_Q82
+Z127 IRNMbmnj?EMPGjX8V=6EWK2
+Z128 VQ7T92kZCVL]ejOEY9dnJE1
 R4
-Z122 w1716559627
-Z123 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v
-Z124 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v
+Z129 w1716559627
+Z130 8C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v
+Z131 FC:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v
 L0 1
 R8
 r1
 31
-Z125 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v|
+Z132 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v|
 R10
-Z126 n@m@u@x4x1_4bits
-Z127 !s108 1720036409.266000
-Z128 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v|
+Z133 n@m@u@x4x1_4bits
+Z134 !s108 1720105972.738000
+Z135 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4x1_4bits.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vREG_FPGA
-Z129 !s100 mVekYgM3WGCNbXgRXSM^`3
-Z130 Idg_0^ck7DiScO0>fT>7G]3
-Z131 V]C:XKc]L<kTQPTYdNh6>c3
+Z136 !s100 mVekYgM3WGCNbXgRXSM^`3
+Z137 Idg_0^ck7DiScO0>fT>7G]3
+Z138 V]C:XKc]L<kTQPTYdNh6>c3
 R4
-Z132 w1720031461
-Z133 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v
-Z134 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v
+Z139 w1720031461
+Z140 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v
+Z141 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v
 L0 1
 R8
 r1
 31
-Z135 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v|
+Z142 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v|
 R10
-Z136 n@r@e@g_@f@p@g@a
-Z137 !s108 1720036409.345000
-Z138 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v|
+Z143 n@r@e@g_@f@p@g@a
+Z144 !s108 1720105972.808000
+Z145 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_FPGA.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vREG_Setup
-Z139 !s100 zI1h3elBL^XWb?WM<VQfH0
-Z140 InYK>Xz=ZDZZDmcE[XSSCC0
-Z141 Va=z[O^k56IQ0C:JhRdNeh1
+Z146 !s100 zI1h3elBL^XWb?WM<VQfH0
+Z147 InYK>Xz=ZDZZDmcE[XSSCC0
+Z148 Va=z[O^k56IQ0C:JhRdNeh1
 R4
-Z142 w1720028309
-Z143 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v
-Z144 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v
+Z149 w1720028309
+Z150 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v
+Z151 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v
 L0 1
 R8
 r1
 31
-Z145 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v|
+Z152 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v|
 R10
-Z146 n@r@e@g_@setup
-Z147 !s108 1720036409.407000
-Z148 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v|
+Z153 n@r@e@g_@setup
+Z154 !s108 1720105972.878000
+Z155 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_Setup.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vREG_USER
-Z149 !s100 X?mMUbm2Pe0oZiL8B88Tl1
-Z150 IUTGZ^6IU]KaNK9Ao<9]X42
-Z151 VI>3OkIdMRUYHR`EN9<EG91
+Z156 !s100 X?mMUbm2Pe0oZiL8B88Tl1
+Z157 IUTGZ^6IU]KaNK9Ao<9]X42
+Z158 VI>3OkIdMRUYHR`EN9<EG91
 R4
-Z152 w1720031459
-Z153 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v
-Z154 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v
+Z159 w1720031459
+Z160 8C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v
+Z161 FC:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v
 L0 1
 R8
 r1
 31
-Z155 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v|
+Z162 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v|
 R10
-Z156 n@r@e@g_@u@s@e@r
-Z157 !s108 1720036409.485000
-Z158 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v|
+Z163 n@r@e@g_@u@s@e@r
+Z164 !s108 1720105972.948000
+Z165 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/REG_user.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSEQ0
-Z159 !s100 ilo=A>`@<afRM[23@?RP91
-Z160 IUjlh<iV5aLah4`oE0cA2J2
-Z161 VBzbY]S@S4U[zemh`e]8B>3
+Z166 !s100 ilo=A>`@<afRM[23@?RP91
+Z167 IUjlh<iV5aLah4`oE0cA2J2
+Z168 VBzbY]S@S4U[zemh`e]8B>3
 R4
-Z162 w1719875041
-Z163 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
-Z164 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
+Z169 w1719875041
+Z170 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
+Z171 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
 L0 1
 R8
 r1
 31
-Z165 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v|
+Z172 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v|
 R10
-Z166 n@s@e@q0
-Z167 !s108 1720036409.548000
-Z168 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v|
+Z173 n@s@e@q0
+Z174 !s108 1720105973.027000
+Z175 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSEQ1
-Z169 !s100 VU?khE7MLlCj]_AkJ<9Ac0
-Z170 Ib;YnmG09oEOSBI77TYiMX3
-Z171 V>HFkg=GAm9oNWfdYCO4cO2
+Z176 !s100 VU?khE7MLlCj]_AkJ<9Ac0
+Z177 Ib;YnmG09oEOSBI77TYiMX3
+Z178 V>HFkg=GAm9oNWfdYCO4cO2
 R4
-Z172 w1719875104
-Z173 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v
-Z174 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v
+Z179 w1719875104
+Z180 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v
+Z181 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v
 L0 12
 R8
 r1
 31
-Z175 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v|
+Z182 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v|
 R10
-Z176 n@s@e@q1
-Z177 !s108 1720036409.626000
-Z178 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v|
+Z183 n@s@e@q1
+Z184 !s108 1720105973.098000
+Z185 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ1.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSEQ2
-Z179 !s100 04Oa`Z1g>GGdjJNDmoK?51
-Z180 IRYZFWHOPC9QOK=JVnADbn0
-Z181 VA1BmV]GDa>BFZDbG_Hg712
+Z186 !s100 04Oa`Z1g>GGdjJNDmoK?51
+Z187 IRYZFWHOPC9QOK=JVnADbn0
+Z188 VA1BmV]GDa>BFZDbG_Hg712
 R4
-Z182 w1719875147
-Z183 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v
-Z184 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v
+Z189 w1719875147
+Z190 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v
+Z191 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v
 L0 1
 R8
 r1
 31
-Z185 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v|
+Z192 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v|
 R10
-Z186 n@s@e@q2
-Z187 !s108 1720036409.704000
-Z188 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v|
+Z193 n@s@e@q2
+Z194 !s108 1720105973.158000
+Z195 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ2.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSEQ3
-Z189 !s100 ]=o@l98Hb[l?hU4fbb4MH3
-Z190 IfRPcU46`<OaFgQ99G;VF^1
-Z191 VFYQDH3z>:Z]?]cG13DX7A2
+Z196 !s100 ]=o@l98Hb[l?hU4fbb4MH3
+Z197 IfRPcU46`<OaFgQ99G;VF^1
+Z198 VFYQDH3z>:Z]?]cG13DX7A2
 R4
-Z192 w1719875177
-Z193 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v
-Z194 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v
+Z199 w1719875177
+Z200 8C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v
+Z201 FC:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v
 L0 1
 R8
 r1
 31
-Z195 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v|
+Z202 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v|
 R10
-Z196 n@s@e@q3
-Z197 !s108 1720036409.766000
-Z198 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v|
+Z203 n@s@e@q3
+Z204 !s108 1720105973.238000
+Z205 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ3.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTopo
-Z199 !s100 V<K7IXgjI:V0JKSKEdU@H2
-Z200 IMnhXJgMU[;_MjRB@5MoaE2
-Z201 VNX1>BOCf@iU:[9X=D=>_63
+Z206 !s100 XbhiQ2lSHRPmNz2RXNBz63
+Z207 I0?l0J@L_j]R90=;T0AKZY2
+Z208 Vz1jYckH0C_5C`O_;Q5O9W1
 R4
-Z202 w1720035250
-Z203 8C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
-Z204 FC:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
+Z209 w1720037687
+Z210 8C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
+Z211 FC:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
 L0 11
 R8
 r1
 31
-Z205 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v|
+Z212 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v|
 R10
-Z206 n@topo
-Z207 !s108 1720036409.845000
-Z208 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v|
+Z213 n@topo
+Z214 !s108 1720105973.314000
+Z215 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTopo_tb
-Z209 !s100 Lg2lmULUWS526C=nRZlBl1
-Z210 ISM[^D@@Snk^gU3KTgZcV`0
-Z211 VMaW3hM4em:5?K1T2NaK^W2
+Z216 I8KglajKNYPc:NiJ6ahGRA1
+Z217 VMaW3hM4em:5?K1T2NaK^W2
 R4
-Z212 w1717771673
-Z213 8C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
-Z214 FC:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
+Z218 w1720105943
+Z219 8C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
+Z220 FC:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
 L0 13
 R8
 r1
 31
-Z215 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v|
+Z221 !s90 -reportprogress|300|-work|work|C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v|
 R10
-Z216 n@topo_tb
+Z222 n@topo_tb
 !i10b 1
+Z223 !s100 ;3XoF>R`AP`RLDS`3T6:<2
 !s85 0
-Z217 !s108 1720036409.907000
-Z218 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v|
+Z224 !s108 1720105973.383000
+Z225 !s107 C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v|
 !s101 -O0

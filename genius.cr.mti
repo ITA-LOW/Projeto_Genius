@@ -75,19 +75,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	counter_User
 
-} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module MUX4X1
-
-Top level modules:
-	MUX4X1
-
 } {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/LOGICA.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module LOGICA
 
 Top level modules:
 	LOGICA
+
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/MUX4X1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module MUX4X1
+
+Top level modules:
+	MUX4X1
 
 } {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -117,13 +117,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	counter_time
 
-} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module datapath
-
-Top level modules:
-	datapath
-
 } {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v {2 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 ** Warning: C:/Users/Pichau/Desktop/ProjetoFinal/src/Topo_tb.v(11): (vlog-2283) Extra semicolon in $unit (global) scope.
@@ -133,6 +126,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Topo_tb
 
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
 } {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/counter_round.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module counter_round
@@ -140,12 +140,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	counter_round
 
-} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module SEQ0
+-- Compiling module FMS_CLOCK
 
 Top level modules:
-	SEQ0
+	FMS_CLOCK
 
 } {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/ButtonSync.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -154,11 +154,11 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	buttonSync
 
-} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/FMS_CLOCK.v
+} {} {}} C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v {1 {vlog -work work C:/Users/Pichau/Desktop/ProjetoFinal/src/SEQ0.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module FMS_CLOCK
+-- Compiling module SEQ0
 
 Top level modules:
-	FMS_CLOCK
+	SEQ0
 
 } {} {}}
